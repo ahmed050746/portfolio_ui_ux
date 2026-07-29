@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UI/UX Engineer Portfolio — Designing SaaS Products That Users Love</title>
+  <meta name="description" content="UI/UX Engineer specializing in SaaS dashboards, LMS, Hospital Management Systems, and responsive mobile experiences." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar" id="navbar">
+    <nav class="navbar-inner">
+      <a href="#top" class="navbar-logo">
+        <span class="navbar-logo-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+        </span>
+        Portfolio
+      </a>
+      <div class="navbar-links">
+        <a href="#lms">Work</a>
+        <a href="#case-study">Case Studies</a>
+        <a href="#mobile">Mobile</a>
+        <a href="#process">Process</a>
+        <a href="#about">About</a>
+      </div>
+      <div class="navbar-cta">
+        <a href="#contact" class="btn-nav">Let's Talk</a>
+      </div>
+      <button class="navbar-toggle" id="navToggle" aria-label="Toggle menu">
+        <svg id="navIcon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </nav>
+    <div class="navbar-mobile" id="navMobile">
+      <div style="padding:16px 24px">
+        <a href="#lms">Work</a>
+        <a href="#case-study">Case Studies</a>
+        <a href="#mobile">Mobile</a>
+        <a href="#process">Process</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="btn-nav" style="display:block;text-align:center;margin-top:8px">Let's Talk</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section id="top" class="hero">
+    <div class="hero-bg grid-bg"></div>
+    <div class="hero-glow-1"></div>
+    <div class="hero-glow-2"></div>
+    <div class="hero-grid">
+      <div class="reveal">
+        <div class="hero-badge">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5.8a2 2 0 0 0 1.3 1.3L21 12l-5.8 1.9a2 2 0 0 0-1.3 1.3L12 21l-1.9-5.8a2 2 0 0 0-1.3-1.3L3 12l5.8-1.9a2 2 0 0 0 1.3-1.3z"/></svg>
+          UI/UX Engineer
+        </div>
+        <h1 class="hero-title">Designing SaaS Products<br>That Users <span class="text-gradient">Love</span>.</h1>
+        <p class="hero-desc">I design modern dashboards, Learning Management Systems (LMS), Hospital Management Systems, responsive websites, and mobile experiences focused on usability, scalability, and business goals.</p>
+        <div class="hero-cta">
+          <a href="#lms" class="btn btn-primary">
+            View Portfolio
+            <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download Resume
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div><div class="hero-stat-val">50+</div><div class="hero-stat-lbl">Screens Designed</div></div>
+          <div><div class="hero-stat-val">1+</div><div class="hero-stat-lbl">Years Experience</div></div>
+          <div><div class="hero-stat-val">10+</div><div class="hero-stat-lbl">Projects Shipped</div></div>
+        </div>
+      </div>
+      <div class="reveal reveal-delay-2 hero-right">
+        <div class="hero-mockup-wrap">
+          <div class="laptop animate-float-slow">
+            <div class="laptop-bar">
+              <div class="dot dot-r"></div><div class="dot dot-a"></div><div class="dot dot-e"></div>
+              <div style="margin-left:8px;width:96px;height:8px;border-radius:6px;background:var(--i100)"></div>
+            </div>
+            <div class="laptop-screen" data-mockup="lms-dashboard"></div>
+          </div>
+          <div class="laptop-base"></div>
+          <div class="float-card animate-float" style="left:-16px;top:32px;width:144px">
+            <div class="float-card-head"><div class="fc-icon" style="background:var(--p400)"></div><div style="height:6px;width:64px;border-radius:6px;background:var(--i200)"></div></div>
+            <div class="float-card-label">Dashboard</div>
+            <div style="margin-top:4px;height:32px;overflow:hidden;border-radius:6px" data-mockup="analytics"></div>
+          </div>
+          <div class="float-card animate-float-delay" style="right:-8px;top:16px;width:128px">
+            <div class="float-card-head"><div class="fc-icon" style="background:var(--i900)"></div><div style="height:6px;width:48px;border-radius:6px;background:var(--i200)"></div></div>
+            <div class="float-card-label">Mobile UI</div>
+            <div style="margin-top:4px;height:64px;overflow:hidden;border-radius:6px" data-mockup="mobile-dashboard"></div>
+          </div>
+          <div class="float-card animate-float-delay" style="left:-8px;bottom:32px;width:128px">
+            <div class="float-card-head"><div class="fc-icon" style="background:var(--p300)"></div><div style="height:6px;width:56px;border-radius:6px;background:var(--i200)"></div></div>
+            <div class="float-card-label">Analytics</div>
+            <div style="margin-top:4px;display:flex;align-items:flex-end;gap:4px;height:48px" data-bar-chart="40,70,50,90,60"></div>
+          </div>
+          <div class="float-card animate-float-slow" style="right:-16px;bottom:16px;width:112px">
+            <div class="float-card-head"><div class="fc-icon" style="background:var(--i700)"></div><div style="height:6px;width:40px;border-radius:6px;background:var(--i200)"></div></div>
+            <div class="float-card-label">Components</div>
+            <div style="margin-top:4px;display:grid;grid-template-columns:1fr 1fr;gap:4px">
+              <div style="height:20px;border-radius:6px;background:var(--i100)"></div>
+              <div style="height:20px;border-radius:6px;background:var(--i100)"></div>
+              <div style="height:20px;border-radius:6px;background:var(--i100)"></div>
+              <div style="height:20px;border-radius:6px;background:var(--i100)"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ LMS SHOWCASE ============ -->
+  <section id="lms" class="section">
+    <div class="container">
+      <div class="reveal" style="max-width:768px;margin:0 auto;text-align:center">
+        <span class="eyebrow">Featured Project</span>
+        <h2 class="section-title">Learning Management System</h2>
+        <p style="margin-top:8px;font-size:18px;font-weight:500;color:var(--i400)">Complete Product Design</p>
+        <p style="margin-top:20px;font-size:18px;line-height:1.6;color:var(--i500)">A complete product design covering user flows, dashboards, responsive layouts, mobile screens, student portal, teacher portal, admin panel, and management dashboards — built for scalability and usability.</p>
+      </div>
+      <div class="reveal reveal-delay-1 meta-grid">
+        <div class="meta-card"><div class="meta-label">Problem</div><div class="meta-value">Fragmented learning tools with poor usability across devices.</div></div>
+        <div class="meta-card"><div class="meta-label">Process</div><div class="meta-value">Research, wireframes, design system, prototypes, testing.</div></div>
+        <div class="meta-card"><div class="meta-label">Solution</div><div class="meta-value">Unified LMS with role-based portals and responsive layouts.</div></div>
+        <div class="meta-card"><div class="meta-label">Impact</div><div class="meta-value">50+ screens designed, responsive redesign, dev handoff.</div></div>
+      </div>
+      <div class="reveal reveal-delay-2 slider-wrap">
+        <div class="slider" id="slider">
+          <div class="slider-track" id="sliderTrack"></div>
+        </div>
+        <div class="slider-controls">
+          <div class="slider-arrows">
+            <button class="slider-btn" id="prevBtn" aria-label="Previous slide">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+            </button>
+            <button class="slider-btn" id="nextBtn" aria-label="Next slide">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+            </button>
+            <button class="slider-btn" id="playBtn" aria-label="Pause autoplay" style="margin-left:4px">
+              <svg id="playIcon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+            </button>
+          </div>
+          <div class="slider-dots" id="sliderDots"></div>
+        </div>
+        <div class="slider-indicator" id="sliderIndicator"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CASE STUDY ============ -->
+  <section id="case-study" class="section section-alt">
+    <div class="container">
+      <div class="reveal" style="max-width:672px;margin:0 auto;text-align:center">
+        <span class="eyebrow">Case Study</span>
+        <h2 class="section-title">UI Redesign Case Studies</h2>
+        <p class="section-sub">Before vs after comparisons showing how usability issues were identified and resolved through structured redesign.</p>
+      </div>
+      <div class="case-list" id="caseList"></div>
+    </div>
+  </section>
+
+  <!-- ============ RESPONSIVE DESIGN ============ -->
+  <section id="responsive" class="section">
+    <div class="container">
+      <div class="reveal" style="max-width:672px;margin:0 auto;text-align:center">
+        <span class="eyebrow">Responsive</span>
+        <h2 class="section-title">Responsive Design Optimization</h2>
+        <p class="section-sub">Existing desktop applications were redesigned for mobile responsiveness while maintaining usability and visual consistency.</p>
+      </div>
+      <div class="reveal reveal-delay-1 resp-flex">
+        <div class="resp-desktop">
+          <div class="resp-label">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:var(--p500)"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            Desktop
+          </div>
+          <div class="resp-frame">
+            <div class="resp-dots"><div class="dot dot-r"></div><div class="dot dot-a"></div><div class="dot dot-e"></div></div>
+            <div class="resp-screen" data-mockup="lms-dashboard"></div>
+          </div>
+        </div>
+        <div class="resp-arrow">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></svg>
+        </div>
+        <div class="resp-mobile">
+          <div class="resp-label">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:var(--p500)"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+            Mobile
+          </div>
+          <div class="phone-frame">
+            <div class="phone-notch"></div>
+            <div class="phone-screen" data-mockup="mobile-dashboard"></div>
+          </div>
+        </div>
+      </div>
+      <div class="resp-pills">
+        <span class="resp-pill">Optimized Layout</span>
+        <span class="resp-pill">Improved Navigation</span>
+        <span class="resp-pill">Better Touch Experience</span>
+        <span class="resp-pill">Responsive Components</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MOBILE MOCKUPS ============ -->
+  <section id="mobile" class="section section-alt">
+    <div class="container">
+      <div class="reveal" style="max-width:672px;margin:0 auto;text-align:center">
+        <span class="eyebrow">Mobile</span>
+        <h2 class="section-title">App Store Ready Mobile Designs</h2>
+        <p class="section-sub">Beautiful Android and iOS device mockups showcasing multiple application screens with a premium, consistent design language.</p>
+      </div>
+      <div class="reveal reveal-delay-1 mobile-mockups" id="mobileMockups"></div>
+    </div>
+  </section>
+
+  <!-- ============ OTHER PROJECTS ============ -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="reveal" style="max-width:672px;margin:0 auto;text-align:center">
+        <span class="eyebrow">Other Projects</span>
+        <h2 class="section-title">More Work</h2>
+        <p class="section-sub">Additional SaaS platforms designed with the same focus on usability, scalability, and clean visual systems.</p>
+      </div>
+      <div class="reveal reveal-delay-1 projects-grid" id="projectsGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="reveal" style="max-width:672px;margin:0 auto;text-align:center">
+        <span class="eyebrow">Toolkit</span>
+        <h2 class="section-title">Skills & Expertise</h2>
+        <p class="section-sub">A focused toolkit for designing and shipping SaaS products end-to-end.</p>
+      </div>
+      <div class="reveal reveal-delay-1 skills-list" id="skillsList"></div>
+    </div>
+  </section>
+
+  <!-- ============ PROCESS TIMELINE ============ -->
+  <section id="process" class="section section-alt">
+    <div class="container">
+      <div class="reveal" style="max-width:672px;margin:0 auto;text-align:center">
+        <span class="eyebrow">Workflow</span>
+        <h2 class="section-title">Design Process Timeline</h2>
+        <p class="section-sub">A structured, repeatable process from research to developer handoff.</p>
+      </div>
+      <div class="reveal reveal-delay-1">
+        <div class="timeline-desktop">
+          <div style="position:relative">
+            <div class="timeline-line"></div>
+            <div class="timeline-line-fill"></div>
+            <div class="timeline-grid" id="timelineDesktop"></div>
+          </div>
+        </div>
+        <div class="timeline-mobile">
+          <div class="timeline-mobile-line"></div>
+          <div class="timeline-mobile-list" id="timelineMobile"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section id="testimonials" class="section">
+    <div class="container">
+      <div class="reveal" style="max-width:672px;margin:0 auto;text-align:center">
+        <span class="eyebrow">Testimonials</span>
+        <h2 class="section-title">What Collaborators Say</h2>
+      </div>
+      <div class="reveal reveal-delay-1 testimonials-grid" id="testimonialsGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="section section-alt">
+    <div class="container">
+      <div class="about-grid">
+        <div class="reveal about-photo">
+          <div class="about-photo-frame">
+            <div class="grid-bg" style="position:absolute;inset:0;opacity:.1"></div>
+            <div class="about-photo-circle"><div></div></div>
+            <div class="about-photo-badge">UI/UX Engineer</div>
+          </div>
+        </div>
+        <div class="reveal reveal-delay-1">
+          <span class="eyebrow">About Me</span>
+          <h2 class="section-title">About Me</h2>
+          <p class="about-text">I'm a UI/UX Engineer with 1+ year of professional experience designing SaaS products, Learning Management Systems, Hospital Management Systems, dashboards, and responsive web applications. I enjoy solving usability problems, creating scalable design systems, and building interfaces that are simple, intuitive, and developer-friendly.</p>
+          <div class="about-facts">
+            <div class="about-fact"><div class="about-fact-label">Experience</div><div class="about-fact-val">1+ Year</div></div>
+            <div class="about-fact"><div class="about-fact-label">Focus</div><div class="about-fact-val">SaaS & LMS</div></div>
+            <div class="about-fact"><div class="about-fact-label">Design Tool</div><div class="about-fact-val">Figma</div></div>
+            <div class="about-fact"><div class="about-fact-label">Location</div><div class="about-fact-val">Remote / India</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT CTA ============ -->
+  <section id="contact" class="section">
+    <div class="container max-w-5xl">
+      <div class="reveal contact-box">
+        <div class="contact-glow-1"></div>
+        <div class="contact-glow-2"></div>
+        <div class="grid-bg" style="position:absolute;inset:0;opacity:.05"></div>
+        <div style="position:relative">
+          <h2 class="contact-title">Let's Build Something<br><span class="coral">Great Together</span></h2>
+          <p class="contact-desc">Have a product that needs a thoughtful, usable design? I'm open to new opportunities and collaborations. Let's talk.</p>
+          <div class="contact-btns">
+            <a href="mailto:hello@example.com" class="btn btn-coral">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              Email Me
+              <svg class="icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noreferrer" class="btn btn-ghost-dark">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              LinkedIn
+            </a>
+            <a href="#" class="btn btn-ghost-dark">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download Resume
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <a href="#top" class="navbar-logo">
+          <span class="navbar-logo-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          </span>
+          Portfolio
+        </a>
+        <div class="footer-links">
+          <a href="mailto:hello@example.com" class="footer-icon-btn" aria-label="Email">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noreferrer" class="footer-icon-btn" aria-label="LinkedIn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="https://github.com" target="_blank" rel="noreferrer" class="footer-icon-btn" aria-label="GitHub">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-copy">© <span id="year"></span> UI/UX Portfolio. Designed &amp; built with care.</div>
+    </div>
+  </footer>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
